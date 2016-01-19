@@ -31,6 +31,7 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 	classpath:com/ToDoList/spring/web/config/dao-context.xml
+	classpath:com/ToDoList/spring/web/config/service-context.xml
 	</param-value>
 	</context-param>
 

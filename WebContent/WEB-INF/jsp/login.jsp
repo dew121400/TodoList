@@ -7,7 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="${pageContext.request.contextPath}/Login">Login</a>
-hi there this is a test
+<form method= "post" action="${pageContext.request.contextPath}/LoginPost">
+<table>
+<tr><td>Username: </td><td><input name ="username" type="text" /></td></tr> 
+<tr><td>password: </td><td><input name ="password" type="text" /></td></tr> 
+<tr><td> <input type= "submit" value= "submit"/> </td></tr>
+</table>
+</form>
 </body>
 </html>
